@@ -2,14 +2,15 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href="https://viterbischool.usc.edu">Ph.D. candidate in Electrical Engineering at USC Viterbi School of Engineering</a>
+
 
 profile:
   align: right
   image: kamiaras_pic_1.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>514, EEB</p>
+    <p>514, Hughes Aircraft Electrical Engineering Center</p>
     <p>3740 McClintock Ave Suite 100</p>
     <p>Los Angeles, CA 90089</p>
 
@@ -19,4 +20,4 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here.
+Kamy's bio.located ina about.md
