@@ -6,7 +6,7 @@
     "email": "kamiar@usc.edu",
     "phone": "(213) 555-1234",
     "url": "https://kamiarasgari.github.io",
-    "summary": "Ph.D. candidate in Electrical Engineering with a focus on Convex Optimization and First-Order Oracle. Fluent in Persian (Farsi) and English.",
+    "summary": "Kamiar Asgari is a Ph.D. candidate in Electrical Engineering at USC, specializing in Convex Optimization with First-Order Oracle for large-scale problems. With a background from Sharif University of Technology, he aspires to continue his research in the industry, focusing on areas like Convex, Online, and Stochastic Optimization. He's proficient in Python, MATLAB, and Deep Learning.",
     "location": {
       "address": "University of Southern California",
       "postalCode": "CA 90007",
@@ -17,66 +17,88 @@
     "profiles": [
       {
         "network": "LinkedIn",
-        "username": "KamiarAsgari",
-        "url": "https://www.linkedin.com/in/kamiarasgari"
+        "username": "kamiaras",
+        "url": "https://www.linkedin.com/in/kamiaras"
+      },
+      {
+        "network": "Github",
+        "username": "kamiaras",
+        "url": "https://github.com/kamiaras/"
       }
     ]
   },
-  "work": [
-    {
-      "name": "University of Southern California (USC)",
-      "position": "Teaching Assistant",
-      "url": "https://www.usc.edu",
-      "startDate": "2018-08-01",
-      "endDate": "2025-05-01",
-      "summary": "Teaching Assistant for various courses including EE503 and EE550, and Research Assistant at Cyber-Physical Systems Group and Optical Networks Research Laboratory.",
-      "highlights": [
-        "Teaching",
-        "Research in Convex Optimization"
-      ]
-    }
-  ],
   "education": [
     {
-      "institution": "University of Southern California (USC), Los Angeles",
+      "institution": "University of Southern California (USC)",
       "location": "Los Angeles, USA",
       "url": "https://www.usc.edu",
       "area": "Electrical Engineering",
-      "studyType": "PhD",
-      "startDate": "2018-08",
-      "endDate": "2025-05",
+      "studyType": "Ph.D.",
+      "startDate": "Aug 2018",
+      "endDate": "May 2025",
       "courses": [
-        "Convex Optimization with First-Order Oracle"
+        "ISE-633, Large Scale Optimization and Machine Learning",
+        "DSCI-552, Machine Learning for Data Science",
+        "EE-541, A Computational Introduction to Deep Learning",
+        "EE-649, Stochastic Network Optimization",
+        "CSCI-570, Analysis of Algorithms",
+        "ISE-620, Foundations of Stochastic Processes",
+        "EE-559, Mathematical Pattern Recognition",
+        "EE-562, Random Processes in Engineering",
+        "EE-550, Data Networks: Design and Analysis",
+        "MATH-425A, Fundamental Concepts of Analysis"
       ]
     },
     {
-      "institution": "Sharif University of Technology (SUT), Tehran, Iran",
+      "institution": "Sharif University of Technology (SUT)",
       "location": "Tehran, Iran",
       "url": "https://www.sharif.edu",
       "area": "Electrical Engineering",
       "studyType": "Bachelor of Science",
-      "startDate": "2014-08-01",
-      "endDate": "2018-08-01"
+      "startDate": "Aug 2014",
+      "endDate": "Aug 2018"
+    }
+  ],
+  "skills": [
+    {
+      "name": "Convex Analisys",
+      "level": "Master",
+      "keywords": [
+        "Convex Optimiziton","Stochastic Subgradient Descnt","Projection-Free","Bregman Divergance","LArge scale optimiziton"
+      ]
+    },
+    {
+      "name": "Statistics and Machine learning",
+      "level": "mid",
+      "keywords": [
+        "Probability", "statistical Learning theory", "Deep learning"
+      ]
+    },
+    {
+      "name": "Sofware and Algorithms",
+      "keywords": [
+        "Analisys of Algorithm","Python", "MATLAB" ,"Linux/GNU","Git"
+      ]
     }
   ],
   "awards": [
     {
       "title": "Best Poster Award at USC-Amazon Center's 2nd Symposium",
-      "date": "2023-01-01",
+      "date": "2023",
+      "url": "https://trustedai.usc.edu/second-annual-symposium",
       "awarder": "USC-Amazon Center",
       "summary": "Presented research on Nonsmooth Projection-Free Optimization"
     },
     {
-      "title": "National Elite Foundation of Iran Fellowship",
-      "date": "2014-01-01",
-      "awarder": "National Elite Foundation of Iran",
+      "title": "Undergraduate Scholarship",
+      "url": "https://en.bmn.ir/",
+      "date": "2014",
+      "awarder": "Iran National Elites Foundation (INEF)",
       "summary": "Granted a Full Undergraduate Scholarship"
     },
     {
       "title": "Bronze Medalist in the 23rd Nationwide Iran Physics Olympiad",
-      "date": "2013-01-01",
-      "awarder": "Nationwide Iran Physics Olympiad",
-      "summary": "Achieved a Bronze Medal"
+      "date": "2013"
     }
   ],
   "languages": [
@@ -91,22 +113,20 @@
   ],
   "interests": [
     {
-      "name": "Community Service",
+      "name": "Volunteering Service",
       "keywords": [
-        "Volunteering in Koreatown","USC Volunteer Center"
+        "Cleaning in Koreatown",
+        "USC Volunteer Center"
       ]
     },
     {
       "name": "Stand-up Comedy",
       "keywords": [
-        "Improv Course at USC"
+        "Improv Course at USC twice!"
       ]
     },
     {
-      "name": "Soccer",
-      "keywords": [
-        "Team Player","Understanding Game Strategy"
-      ]
+      "name": "Soccer"
     }
   ]
 }
