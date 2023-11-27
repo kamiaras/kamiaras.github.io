@@ -10,13 +10,30 @@
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D. in Electrical Engineering
-      institution: University of Southern California (USC), Los Angeles
+    - title: Ph.D.
+      department: Electrical Engineering
+      institution: University of Southern California (USC)
+      location: Los Angeles, CA
       year: Aug 2018 - May 2025
-      description:
+      description:  
         - Supervised by <a href="https://viterbi-web.usc.edu/~mjneely/">Prof. Michael J. Neely</a>
+      items:
+        - title: "Courses"
+          contents:
+            - "ISE-633, Large Scale Optimization and Machine Learning",
+            - "DSCI-552, Machine Learning for Data Science",
+            - "EE-541, A Computational Introduction to Deep Learning",
+            - "EE-649, Stochastic Network Optimization",
+            - "CSCI-570, Analysis of Algorithms",
+            - "ISE-620, Foundations of Stochastic Processes",
+            - "EE-559, Mathematical Pattern Recognition",
+            - "EE-562, Random Processes in Engineering",
+            - "EE-550, Data Networks: Design and Analysis",
+            - "MATH-425A, Fundamental Concepts of Analysis"
     - title: Bachelor of Science in Electrical Engineering
-      institution: Sharif University of Technology (SUT), Tehran, Iran
+      department: Electrical Engineering
+      institution: Sharif University of Technology (SUT)
+      location: Tehran, Iran
       year: Aug 2014 - Aug 2018
 
 - title: Experience
@@ -45,6 +62,7 @@
 
 
 - title: Skills
+  type: list
 - title: Publications
 - title:  
 

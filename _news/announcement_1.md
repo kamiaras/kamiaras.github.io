@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I finally finished my personal website after a journey of learning!
+I just wrapped up creating my fun and simple personal website - it's been a cool learning adventure in web design!
