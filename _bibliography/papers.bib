@@ -3,27 +3,7 @@
 
 @string{aps = {American Physical Society,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
 
 @article{PhysRev.47.777,
   abbr={PhysRev},
@@ -47,38 +27,36 @@
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+
+@misc{asgari2023nonsmooth,
+      abbr={Preprint},
+      abstract={This paper presents a subgradient-based algorithm for constrained nonsmooth convex optimization that does not require projections onto the feasible set. While the well-established Frank-Wolfe algorithm and its variants already avoid projections, they are primarily designed for smooth objective functions. In contrast, our proposed algorithm can handle nonsmooth problems with general convex functional inequality constraints. 
+                  It achieves an $\epsilon$-suboptimal solution in $\mathcal{O}(\epsilon^{-2})$ iterations, with each iteration requiring only a single (potentially inexact) Linear Minimization Oracle (LMO) call and a (possibly inexact) subgradient computation. This performance is consistent with existing lower bounds.
+                  Similar performance is observed when deterministic subgradients are replaced with stochastic subgradients. In the special case where there are no functional inequality constraints, our algorithm competes favorably with a recent nonsmooth projection-free method designed for constraint-free problems. Our approach utilizes a simple separation scheme in conjunction with a new Lagrange multiplier update rule.},
+      title={Nonsmooth Projection-Free Optimization with Functional Constraints}, 
+      author={Kamiar Asgari and Michael J. Neely},
+      year={2023},
+      pdf={Projection-Free.pdf},
+      doi={https://doi.org/10.48550/arXiv.2311.11180},
+      url={https://arxiv.org/abs/2311.11180}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
+@article{10.1145/3428337,
+author = {Asgari, Kamiar and Neely, Michael J.},
+title = {Bregman-Style Online Convex Optimization with EnergyHarvesting Constraints},
+year = {2020},
+issue_date = {December 2020},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {4},
+number = {3},
+url = {https://doi.org/10.1145/3428337},
+doi = {10.1145/3428337},
+abstract = {This paper considers online convex optimization (OCO) problems where decisions are constrained by available energy resources. A key scenario is optimal power control for an energy harvesting device with a finite capacity battery. The goal is to minimize a time-average loss function while keeping the used energy less than what is available. In this setup, the distribution of the randomly arriving harvestable energy (which is assumed to be i.i.d.) is unknown, the current loss function is unknown, and the controller is only informed by the history of past observations. A prior algorithm is known to achieve $O(sqrtT )$ regret by using a battery with an $O(sqrtT )$ capacity. This paper develops a new algorithm that maintains this asymptotic trade-off with the number of time steps T while improving dependency on the dimension of the decision vector from $O(sqrtn )$ to $O(sqrt\l{}og(n) )$. The proposed algorithm introduces a separation of the decision vector into amplitude and direction components. It uses two distinct types of Bregman divergence, together with energy queue information, to make decisions for each component.},
+journal = {Proc. ACM Meas. Anal. Comput. Syst.},
+month = {nov},
+articleno = {52},
+numpages = {25},
+keywords = {scheduling, online learning, mirror descent, wireless networks},
+pdf={energy-harvest.pdf}
 }
