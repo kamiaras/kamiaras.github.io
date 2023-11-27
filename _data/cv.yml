@@ -20,16 +20,16 @@
       items:
         - title: "Courses"
           contents:
-            - "ISE-633, Large Scale Optimization and Machine Learning",
-            - "DSCI-552, Machine Learning for Data Science",
-            - "EE-541, A Computational Introduction to Deep Learning",
-            - "EE-649, Stochastic Network Optimization",
-            - "CSCI-570, Analysis of Algorithms",
-            - "ISE-620, Foundations of Stochastic Processes",
-            - "EE-559, Mathematical Pattern Recognition",
-            - "EE-562, Random Processes in Engineering",
-            - "EE-550, Data Networks: Design and Analysis",
-            - "MATH-425A, Fundamental Concepts of Analysis"
+            - "Large Scale Optimization and Machine Learning (ISE-633)"
+            - "Machine Learning for Data Science (DSCI-552)"
+            - "A Computational Introduction to Deep Learning (EE-541)"
+            - "Stochastic Network Optimization (EE-649)"
+            - "Analysis of Algorithms (CSCI-570)"
+            - "Foundations of Stochastic Processes (ISE-620)"
+            - "Mathematical Pattern Recognition (EE-559)"
+            - "Random Processes in Engineering (EE-562)"
+            - "Data Networks: Design and Analysis (EE-550)"
+            - "Fundamental Concepts of Analysis (MATH-425A)"
     - title: Bachelor of Science in Electrical Engineering
       department: Electrical Engineering
       institution: Sharif University of Technology (SUT)
