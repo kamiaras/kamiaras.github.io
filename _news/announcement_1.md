@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 11/26/2023
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I finally finished my personal website after a journey of learning and improving!

@@ -2,96 +2,91 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Kamiar Asgari
+
     - name: Languages
-      value: English, German
+      value: Persian (Farsi) - Native, English - Fluent (Second Language)
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Ph.D. in Electrical Engineering
+      institution: University of Southern California (USC), Los Angeles
+      year: Aug 2018 - May 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - Supervised by <a href="https://viterbi-web.usc.edu/~mjneely/">Prof. Michael J. Neely</a>
+    - title: Bachelor of Science in Electrical Engineering
+      institution: Sharif University of Technology (SUT), Tehran, Iran
+      year: Aug 2014 - Aug 2018
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Teaching Assistant, Probability for Electrical and Computer Engineers (EE503)
+      institution: USC
+      year: Fall 2023 & Fall 2019
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Taught by <a href="https://sites.usc.edu/kpsounis">Prof. Konstantinos Psounis</a>
+    - title: Teaching Assistant, Design and Analysis of Computer Communication Networks (EE550)
+      institution: USC
+      year: Spring 2023
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Taught by <a href="https://viterbi-web.usc.edu/~mjneely/">Prof. Michael J. Neely</a>
+    - title: Research Assistant at Cyber-Physical Systems Group
+      institution: USC
+      year: Aug 2018 - May 2019
       description:
+        - Advised by <a href="https://cps.usc.edu/">Dr. Paul Bogdan</a>
+    - title: Research Assistant at Optical Networks Research Laboratory
+      institution: SUT
+      year: Aug 2017 - Apr 2018
+      description:
+        - Advised by <a href="https://sharif.edu/~jasalehi/">Prof. Jawad A. Salehi</a>
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
 
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+- title: Skills
+- title: Publications
+- title:  
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
-      items: 
-        - Nobel Prize in Physics 
-        - Matteucci Medal
-    - year: 2029
-      items: 
-        - Max Planck Medal
+    - year: 2023
+      title: Winner of Best Poster Award at USC-Amazon Center's 2nd Symposium
+      description: Presented research on Nonsmooth Projection-Free Optimization
+    - year: 2014
+      title: National Elite Foundation of Iran Fellowship
+      description: Granted a Full Undergraduate Scholarship
+    - year: 2013
+      title: Bronze Medalist in the 23rd Nationwide Iran Physics Olympiad
+
+
+
+
 
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Primary Focus "<strong>Convex Optimization with First-Order Oracle</strong>"
       items: 
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - Projection-Free Methods for Nonsmooth Challenges
+        - Utilization of Bregman Divergence in Broader Contexts
+    - title: Additional Academic Pursuits
       items:
-        - Description 1.
-        - Description 2.
+        - Theory of Deep Learning
+        - Statistical Learning Theory, including ERM, SRM, and PAC
+        - Decision-Making Algorithms, covering Bandit Algorithms and Online Convex Optimization
 
-- title: Other Interests
+
+
+
+
+
+
+- title: Other Interests and Activities
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Actively participated in community service initiatives through the USC Volunteer Center, focusing on neighborhood cleanup projects in Koreatown.
+    - Engaged as a volunteer with The Viterbi Impact Program, contributing to the organization and success of the Viterbi K-12 Center's Annual MESA and Hustle N' Code Hackathon events.
+    - I'm a big fan of comedy, especially stand-up! I had such a blast taking the Improv course at USC not once, but twice!
+    - Soccer is my favorite sport. Even though my technique isn't perfect, I'm good at understanding the game and playing as a team member.
