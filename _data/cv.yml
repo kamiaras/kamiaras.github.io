@@ -3,21 +3,34 @@
   contents:
     - name: Full Name
       value: Kamiar Asgari
-
+    - name: Nickname
+      value: Kamy
     - name: Languages
       value: Persian (Farsi) - Native, English - Fluent (Second Language)
+    - name: Summary
+      value: Kamiar Asgari, currently pursuing his Ph.D. in Electrical Engineering at USC, is all about making complex optimization problems simpler and more efficient. He started this journey with a B.S. from Sharif University in Iran and now, he's looking to bring his skills into the industry, diving into everything from optimization to deep learning. Kamiar, believes in staying positive even when things get tricky, a lesson he's learned from his research. He's pretty handy with Python and MATLAB, knows his way around Linux/GNU and Git, and is always up for teaming up with others who are just as passionate about pushing the boundaries in deep learning.
 
 - title: Education
   type: time_table
   contents:
-    - title: Ph.D.
-      department: Electrical Engineering
+    - title: Ph.D., Electrical Engineering
+      department: Department of Electrical and Computer Engineering
       institution: University of Southern California (USC)
       location: Los Angeles, CA
       year: Aug 2018 - May 2025
       description:  
         - Supervised by <a href="https://viterbi-web.usc.edu/~mjneely/">Prof. Michael J. Neely</a>
       items:
+        - title: "Research Focus: Convex Optimization"
+          contents:
+            - Nonsmooth Convex Functions
+            - Large-Scale (High-Dimensional) Challenges in Convex Optimization 
+            - Stochastic First-Order Methods
+            - Projection-Free Techniques
+            - Bregman Divergence
+            - Optimization in Online Environments
+            - Functional Constraints
+            - Primal-Dual Methods
         - title: "Courses"
           contents:
             - "Large Scale Optimization and Machine Learning (ISE-633)"
@@ -30,8 +43,10 @@
             - "Random Processes in Engineering (EE-562)"
             - "Data Networks: Design and Analysis (EE-550)"
             - "Fundamental Concepts of Analysis (MATH-425A)"
-    - title: Bachelor of Science in Electrical Engineering
-      department: Electrical Engineering
+
+
+    - title: Bachelor of Science in Electrical Engineering with a Specialization in Telecommunications.
+      department: Department of Electrical Engineering
       institution: Sharif University of Technology (SUT)
       location: Tehran, Iran
       year: Aug 2014 - Aug 2018
@@ -39,32 +54,56 @@
 - title: Experience
   type: time_table
   contents:
-    - title: Teaching Assistant, Probability for Electrical and Computer Engineers (EE503)
+    - title: Research Assistant at Communication, Information, Learning, and Quantum (CILQ) group
       institution: USC
-      year: Fall 2023 & Fall 2019
+      year: Aug 2019 - May 2025
       description:
-        - Taught by <a href="https://sites.usc.edu/kpsounis">Prof. Konstantinos Psounis</a>
-    - title: Teaching Assistant, Design and Analysis of Computer Communication Networks (EE550)
-      institution: USC
-      year: Spring 2023
-      description:
-        - Taught by <a href="https://viterbi-web.usc.edu/~mjneely/">Prof. Michael J. Neely</a>
+        - Advised by <a href="https://viterbi-web.usc.edu/~mjneely/">Prof. Michael J. Neely</a>.
+        - Published "Nonsmooth Projection-Free Optimization with Functional Constraints" and "Bregman-Style Online Convex Optimization with EnergyHarvesting Constraints"
     - title: Research Assistant at Cyber-Physical Systems Group
       institution: USC
       year: Aug 2018 - May 2019
       description:
-        - Advised by <a href="https://cps.usc.edu/">Dr. Paul Bogdan</a>
-    - title: Research Assistant at Optical Networks Research Laboratory
+        - Advised by <a href="https://cps.usc.edu/">Dr. Paul Bogdan</a>.
+        - Investigation of Anomalous Diffusion Phenomena through Fractional Calculus Methods.
+        - Published "Identifying Arguments of Space-Time Fractional Diffusion, Data-Driven Approach"
+    - title: Teaching Assistant, Probability for Electrical and Computer Engineers (EE503)
+      institution: USC
+      year: Fall 2023 & Fall 2019
+      description:
+        - Taught by <a href="https://sites.usc.edu/kpsounis">Prof. Konstantinos Psounis</a>.
+    - title: Teaching Assistant, Design and Analysis of Computer Communication Networks (EE550)
+      institution: USC
+      year: Spring 2023
+      description:
+        - Taught by <a href="https://viterbi-web.usc.edu/~mjneely/">Prof. Michael J. Neely</a>.
+    - title: Research Assistant at the Optical Networks Research Laboratory.
       institution: SUT
       year: Aug 2017 - Apr 2018
       description:
-        - Advised by <a href="https://sharif.edu/~jasalehi/">Prof. Jawad A. Salehi</a>
+        - Advised by <a href="https://sharif.edu/~jasalehi/">Prof. Jawad A. Salehi</a>.
+        - Development and Evaluation of DNA Sequence Alignment Utilizing Optical Parallel Processing Techniques.
+    - title: Research Internship at the Advanced Communications Research Institute.
+      institution: SUT
+      year:  Summer 2016
+      description:
+        - Advised by <a href="https://scholar.google.com/citations?user=QqZjvMoAAAAJ&hl=en">Prof. Marvasti, Farokh</a>.    
+        - "Exploring Matrix Completion and Compressed Sensing via Convex Optimization Methods."
 
-
-- title: Skills
+- title: Technical Skills
   type: list
-- title: Publications
-- title:  
+  contents:
+    - Proficient in Convex Optimization, algorithmic complexity, and Convex Analysis. Skilled in Probability, Statistics, and Statistical Learning Theory. Hands-on experience in Deep Learning, with an intuitive grasp of its theory.
+    - Experienced in Python, Pytorch, Keras; familiar with GNU/Linux and Git; competent in Matlab.
+
+- title: Mentorship And Volunteering
+  type: list
+  contents:
+    - Three-time participation in the Viterbi Graduate Mentorship Program.
+    - Active involvement in community service initiatives through the USC Volunteer Center, including neighborhood cleanup projects in Koreatown.
+    - Dedicated volunteering with The Viterbi Impact Program, where I contributed to the success of the Viterbi K-12 Center's Annual MESA and Hustle N' Code Hackathon events.
+
+
 
 - title: Honors and Awards
   type: time_table
@@ -80,7 +119,11 @@
 
 
 
-
+- title: Presentations 
+  type: list
+  contents:
+    - The paper "Nonsmooth Projection-Free Optimization with Functional Constraints" was presented in Informs Annual meeting 2023
+    - The paper "Bregman-Style Online Convex Optimization with EnergyHarvesting Constraints" was presented in ACM SIGMETRICS 2021
 
 - title: Academic Interests
   type: nested_list
@@ -96,15 +139,10 @@
         - Decision-Making Algorithms, covering Bandit Algorithms and Online Convex Optimization
 
 
-
-
-
-
-
-- title: Other Interests and Activities
+- title: My Other Interests
   type: list
-  contents:
-    - Actively participated in community service initiatives through the USC Volunteer Center, focusing on neighborhood cleanup projects in Koreatown.
-    - Engaged as a volunteer with The Viterbi Impact Program, contributing to the organization and success of the Viterbi K-12 Center's Annual MESA and Hustle N' Code Hackathon events.
+  contents:  
+    - I've got a soft spot for physics, and I'm always looking for opportunities to learn more about it.
+    - I'm a history, economics, and philosophy buff, especially digging into the economies of ancient empires.
     - I'm a big fan of comedy, especially stand-up! I had such a blast taking the Improv course at USC not once, but twice!
     - Soccer is my favorite sport. Even though my technique isn't perfect, I'm good at understanding the game and playing as a team member.
