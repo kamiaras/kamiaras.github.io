@@ -1,63 +1,44 @@
-# al-folio
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[maintainers]: https://img.shields.io/badge/maintainers-4-success.svg 'Number of maintainers'
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
+# Kamiar Asgari's Academic Website
 
-[![deploy](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml/badge.svg)](https://github.com/alshedivat/al-folio/actions/workflows/deploy.yml)
-[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
-[![GitHub contributors](https://img.shields.io/github/contributors/alshedivat/al-folio.svg)](https://github.com/alshedivat/al-folio/graphs/contributors/)
-[![Maintainers][maintainers]](#maintainers)
-[![GitHub release](https://img.shields.io/github/v/release/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/alshedivat/al-folio?color=blue)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/alshedivat/al-folio)](https://github.com/alshedivat/al-folio)
-[![GitHub forks](https://img.shields.io/github/forks/alshedivat/al-folio)](https://github.com/alshedivat/al-folio/fork)
+This is the personal academic website of Kamiar Asgari, built with [Jekyll](https://jekyllrb.com/) and the [al-folio](https://github.com/alshedivat/al-folio) theme. The site presents research, publications, CV, news, and projects, and is designed for easy deployment via GitHub Pages or Docker.
 
-[![Docker Image Version](https://img.shields.io/docker/v/amirpourmand/al-folio?sort=semver&label=docker%20image&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Image Size](https://img.shields.io/docker/image-size/amirpourmand/al-folio?sort=date&label=docker%20image%20size&color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
-[![Docker Pulls](https://img.shields.io/docker/pulls/amirpourmand/al-folio?color=blueviolet)](https://hub.docker.com/r/amirpourmand/al-folio)
+## Features
 
-A simple, clean, and responsive [Jekyll](https://jekyllrb.com/) theme for academics.
-If you like the theme, give it a star!
+- Personal homepage and biography
+- CV page (auto-generated from YAML data)
+- Projects portfolio
+- News and blog posts
+- Publications (auto-generated from BibTeX)
+- Social and academic profile links
+- Responsive, modern design
+- Easy local development with Docker
 
-[![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
+## Local Development
 
-## User community
+The recommended way to run the site locally is with Docker:
 
-The vibrant community of **al-folio** users is growing!
-Academics around the world use this theme for their homepages, blogs, lab pages, as well as webpages for courses, workshops, conferences, meetups, and more.
-Check out the community webpages below.
-Feel free to add your own page(s) by sending a PR.
+```bash
+docker compose up
+```
 
-<table>
-<tr>
-<td>Academics</td>
-<td>
-<a href="https://martinbulla.github.io" target="_blank">★</a>  
-<a href="https://maruan.alshedivat.com" target="_blank">★</a>
-<a href="https://www.cs.columbia.edu/~chen1ru/" target="_blank">★</a>
-<a href="https://maithraraghu.com" target="_blank">★</a>
-<a href="https://platanios.org" target="_blank">★</a>
-<a href="https://otiliastr.github.io" target="_blank">★</a>
-<a href="https://www.maths.dur.ac.uk/~sxwc62/" target="_blank">★</a>
-<a href="https://jessachandler.com/" target="_blank">★</a>
-<a href="https://mayankm96.github.io/" target="_blank">★</a>
-<a href="https://markdean.info/" target="_blank">★</a>
-<a href="https://kakodkar.github.io/" target="_blank">★</a>
-<a href="https://sahirbhatnagar.com/" target="_blank">★</a>
-<a href="https://spd.gr/" target="_blank">★</a>
-<a href="https://jay-sarkar.github.io/" target="_blank">★</a>
-<a href="https://aborowska.github.io/" target="_blank">★</a>
-<a href="https://aditisgh.github.io/" target="_blank">★</a>
-<a href="https://alexhaydock.co.uk/" target="_blank">★</a>
-<a href="https://alixkeener.net/" target="_blank">★</a>
-<a href="https://andreea7b.github.io/" target="_blank">★</a>
-<a href="https://rishabhjoshi.github.io/" target="_blank">★</a>
-<a href="https://sheelabhadra.github.io/" target="_blank">★</a>
-<a href="https://giograno.me/" target="_blank">★</a>
-<a href="https://immsrini.github.io/" target="_blank">★</a>
-<a href="https://apooladian.github.io/" target="_blank">★</a>
-<a href="https://chinmoy-dutta.github.io/" target="_blank">★</a>
-<a href="https://liamcli.com/" target="_blank">★</a>
+Then visit [http://localhost:4000](http://localhost:4000) in your browser.
+
+## Deployment
+
+This site is automatically deployed to GitHub Pages on every push to the `master` branch. No manual deployment steps are needed.
+
+## Customization
+
+- Edit `_config.yml` for site settings and social links.
+- Add or edit content in `_pages/`, `_news/`, `_projects/`, and `_posts/`.
+- Publications are managed in `_bibliography/papers.bib`.
+- CV data is managed in `_data/cv.yml`.
+- Images and assets are in `assets/`.
+
+## Credits
+
+Based on the [al-folio](https://github.com/alshedivat/al-folio) Jekyll theme.
+MIT License.
 <a href="https://yoonholee.com/" target="_blank">★</a>
 <a href="https://zrqiao.github.io/" target="_blank">★</a>
 <a href="https://abstractgeek.github.io/" target="_blank">★</a>
