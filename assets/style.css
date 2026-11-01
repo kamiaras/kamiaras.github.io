@@ -118,6 +118,9 @@ strong { font-weight: 600; }
 .post-content table { border-collapse: collapse; width: 100%; font-size: 14px; }
 .post-content th, .post-content td { text-align: left; padding: 10px; border-bottom: 1px solid var(--rule); }
 .post-content hr { border: 0; border-top: 1px solid var(--rule); margin: 32px 0; }
+.paper-links { display: flex; flex-wrap: wrap; gap: 8px 24px; margin-block: 26px 14px; font-size: 14px; }
+.paper-update, .paper-fallback { color: var(--muted); font-size: 13px; }
+.paper-pdf { display: block; width: 100%; height: min(78vh, 900px); min-height: 420px; margin-block: 20px 14px; border: 1px solid var(--rule); border-radius: 3px; background: #fff; }
 @media (max-width: 560px) {
   .site-shell { width: calc(100% - 40px); }
   .site-header { padding-top: 25px; margin-bottom: 42px; }
@@ -151,6 +154,7 @@ strong { font-weight: 600; }
   :root { --paper: #fff; --ink: #000; --muted: #333; --green: #000; }
   .site-shell { width: 100%; max-width: none; }
   .site-header, .site-footer, .contents-list, .skip-link { display: none; }
+  .paper-pdf, .paper-fallback { display: none; }
   body { font-size: 11pt; }
   a { text-decoration: none; }
   .cv-section { margin-top: 24px; }

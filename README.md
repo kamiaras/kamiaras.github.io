@@ -84,6 +84,26 @@ Update the private CV source and push the changes. The automation compiles the C
 
 The private LaTeX source, drafts, build notes, and credentials stay outside this public repository. There is no HTML CV page to update separately. The automation skips commits when the PDF is unchanged.
 
+## Keep the deadline-allocation note PDF current
+
+The note at `/writing/deadline-constrained-online-allocation/` embeds the local
+`assets/pdf/Deadline-Constrained-Online-Allocation.pdf` and offers open/download
+links. The public paper repository,
+[Deadline-Constrained-Online-Allocation](https://github.com/kamiaras/Deadline-Constrained-Online-Allocation),
+is the source of that PDF.
+
+Push an updated `main.pdf` to the paper repository's `main` branch. Its
+`Sync manuscript PDF to personal website` workflow copies only that file to this
+website and commits it when the bytes change. The normal Pages workflow then
+publishes the update. A separate website-only deploy key is stored as the paper
+repository's `WEBSITE_DEADLINE_SYNC_KEY` Actions secret; it does not replace the
+CV connection. The note's text is edited here and is not overwritten by the sync.
+
+The sync can also be started manually in the paper repository's Actions tab.
+It does not compile LaTeX: rebuild and commit `main.pdf` after changing the paper
+source. Failed syncs or Pages builds are visible in the corresponding repository's
+Actions tab. The previous deployed website remains available if an update fails.
+
 ## Included software
 
 The build uses [Marked](https://github.com/markedjs/marked), version 17.0.5, vendored in `vendor/marked/` under its MIT license. No third-party JavaScript is downloaded or executed by visitors.
