@@ -1,0 +1,12 @@
+{
+  "name": "kamiar-personal-website",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Kamiar Asgari's personal website, built as static pages for GitHub Pages.",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/preview.mjs"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "Kamiar Asgari",
+  "name": "Kamiar Asgari",
+  "description": "Software engineer and researcher in machine learning, optimization, and sequential decision-making. Personal website, CV, notes, and essays.",
+  "url": "https://kamiaras.github.io",
+  "email": "kamy.gary.personal@gmail.com",
+  "navigation": [
+    { "label": "Home", "path": "/" },
+    { "label": "Writing", "path": "/writing/" }
+  ]
+}
